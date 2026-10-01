@@ -196,7 +196,7 @@ Style: Modern TikTok advertisement, viral potential, authentic energy, minimal t
 				contents = [prompt + '\n\nHere is the actual landing page screenshot to reference for design inspiration:', img]
 
 			response = await self.client.aio.models.generate_content(
-				model='gemini-2.5-flash-image-preview',
+				model='gemini-3.1-flash-image',
 				contents=contents,
 			)
 
